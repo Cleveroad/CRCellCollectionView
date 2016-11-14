@@ -1,0 +1,6 @@
+framework module CRHexagonCollectionView {
+  umbrella header "CRHexagonCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}
