@@ -256,7 +256,8 @@
 				ORGANIZATIONNAME = Sergey;
 				TargetAttributes = {
 					6003F589195388D20070C39A = {
-						DevelopmentTeam = 792NT6QC6D;
+						DevelopmentTeam = TS4L5392F8;
+						ProvisioningStyle = Manual;
 					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
@@ -536,7 +537,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 792NT6QC6D;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = TS4L5392F8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRHexagonCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "CRHexagonCollectionView/CRHexagonCollectionView-Info.plist";
@@ -544,6 +546,8 @@
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "df4f562d-6dea-4514-90d6-0e7a2f0f7517";
+				PROVISIONING_PROFILE_SPECIFIER = UniversalDev;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -554,7 +558,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				DEVELOPMENT_TEAM = 792NT6QC6D;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRHexagonCollectionView-Prefix.pch";
 				INFOPLIST_FILE = "CRHexagonCollectionView/CRHexagonCollectionView-Info.plist";

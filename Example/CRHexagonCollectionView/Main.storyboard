@@ -39,18 +39,18 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="432" id="KbS-fN-dak"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="UtG-TL-GYp" customClass="CRHexagonCollectionViewLayout">
-                                    <size key="itemSize" width="90" height="90"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="UtG-TL-GYp" customClass="CRHexagonCollectionViewLayout">
+                                    <size key="itemSize" width="85" height="85"/>
                                     <size key="headerReferenceSize" width="10" height="30"/>
                                     <size key="footerReferenceSize" width="10" height="30"/>
                                     <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="cellIdentifier" id="ULg-Yv-zaw" customClass="CRCollectionViewCell">
-                                        <rect key="frame" x="10" y="0.0" width="90" height="90"/>
+                                        <rect key="frame" x="10" y="0.0" width="85" height="85"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="85" height="85"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="1LJ-vY-cJb"/>
@@ -72,7 +72,7 @@
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                                 <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="zb8-5j-haL">
-                                    <rect key="frame" x="100" y="0.0" width="10" height="368"/>
+                                    <rect key="frame" x="95" y="0.0" width="10" height="368"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </collectionReusableView>
                                 <connections>
