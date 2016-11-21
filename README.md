@@ -9,11 +9,13 @@
 
 ## Meet CRHexagonCollectionView - Customizable UICollectionView for iOS
 
-CRHexagonCollectionView change position of item in collectionView and structures them in hexagon form.
-CRHexagonCollectionView have all scroll directive.
-Supports UICollectionViewDelegateFlowLayout.
+Do you want to change something in your app? Start with its collection view! Cleveroad iOS developers are glad to present you CRHexagonCollectionView library. With this component, pictures in your apps collection view will look like honeycomb instead of the boring standard variant. 
 
 ![Demo image](/images/demo.gif)
+
+This view allows placing more pictures on one page at the same time which makes UX of your app more convenient. Moreover, people love pictures, that’s why new original UI of your collection view will definitely attract their attention. 
+
+So, don’t be afraid to make some changes, just add some creativity to your app and users will love it! 
 
 [![Awesome](/images/logo-footer.png)](https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts)
 <br/>
