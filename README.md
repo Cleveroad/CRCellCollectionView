@@ -5,11 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/CRHexagonCollectionView.svg?style=flat)](http://cocoapods.org/pods/CRHexagonCollectionView)
 [![Platform](https://img.shields.io/cocoapods/p/CRHexagonCollectionView.svg?style=flat)](http://cocoapods.org/pods/CRHexagonCollectionView)
 
+![Header image](/images/header.jpg)
+
 ## Meet CRHexagonCollectionView - Customizable UICollectionView for iOS
 
 CRHexagonCollectionView change position of item in collectionView and structures them in hexagon form.
 CRHexagonCollectionView have all scroll directive.
 Supports UICollectionViewDelegateFlowLayout.
+
+![Demo image](/images/demo.gif)
+
+[![Awesome](/images/logo-footer.png)](https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts)
+<br/>
 
 ## Example
 
@@ -37,7 +44,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Support
 
-If you have any other questions regarding the use of this library, please contact us for support at info@cleveroad.com (email subject: "CRHexagonCollectionView. Support request.") 
+If you have any questions, issues or propositions, please create a <a href="https://github.com/Cleveroad/CRHexagonCollectionView/issues">new issue</a> in this repository. If you want to hire us, send an email to sales@cleveroad.com or fill the form on <a href="https://www.cleveroad.com/contact">contact page</a>.
 
 ## Author
 
