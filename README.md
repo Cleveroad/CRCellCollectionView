@@ -46,7 +46,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Support
 
-If you have any questions, issues or propositions, please create a <a href="../issues/new">new issue</a> in this repository. If you want to hire us, send an email to sales@cleveroad.com or fill the form on <a href="https://www.cleveroad.com/contact">contact page</a>.
+If you have any questions, issues or propositions, please create a <a href="../../issues/new">new issue</a> in this repository. If you want to hire us, send an email to sales@cleveroad.com or fill the form on <a href="https://www.cleveroad.com/contact">contact page</a>.
 
 ## Author
 
