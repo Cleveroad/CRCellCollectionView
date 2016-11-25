@@ -1,0 +1,689 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		198155C41016573C90FADEDC73EBF7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */; };
+		60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */; };
+		6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */; };
+		CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CFD90A101DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */; };
+		CFD90A111DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */; };
+		D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FFA29558AEB597A596110267145CB3B5 /* Pods-CRHexagonCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8ECAAAE05BE3DA1C7431B779BBC0A281 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E12AD1C1BA4153DAC1A65ACEA6E077A9;
+			remoteInfo = CRHexagonCollectionView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A52D9A057F359FE38BAC27D0CE60E92 /* CRHexagonCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CRHexagonCollectionView.modulemap; sourceTree = "<group>"; };
+		1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		1F349A8A6DC9C584AE55B7B30C2A8D4D /* Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2593766D97F5925D0587A1B09DE0D611 /* Pods-CRHexagonCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHexagonCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B47C24B1F1EED03398ABD48D802A8DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F154002A67116F4D444A9101D62568D /* Pods-CRHexagonCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHexagonCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
+		457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHexagonCollectionView-umbrella.h"; sourceTree = "<group>"; };
+		5896ED5ADA941FE7708AE402DE041A8E /* CRHexagonCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHexagonCollectionView-prefix.pch"; sourceTree = "<group>"; };
+		700F5E1E08ABF0BEC4D2D85A80619DF1 /* Pods-CRHexagonCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CRHexagonCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
+		7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHexagonCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
+		74B74FA209C93305728483AB3FA4FF77 /* Pods-CRHexagonCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CRHexagonCollectionView_Example.modulemap"; sourceTree = "<group>"; };
+		7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRHexagonCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C79A0E855FF4A29410B61BAF99A4157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHexagonCollectionView.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9A321F351DE6A51901A2DDC25C1E1AAC /* Pods-CRHexagonCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
+		AD5E9AFDB6E0A413FD66E6143B28F972 /* Pods-CRHexagonCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRHexagonCollectionView-dummy.m"; sourceTree = "<group>"; };
+		C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
+		CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHexagonCollectionViewLayout.h; sourceTree = "<group>"; };
+		CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHexagonCollectionViewLayout.m; sourceTree = "<group>"; };
+		E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
+		FA34857C0821EFAD43BA3C9FB3EFCCD9 /* Pods-CRHexagonCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6CCCD07E04DED8D4DC7860CFB133F10F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C92BC10D3D0ED16904E76D0BB9E9186E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				198155C41016573C90FADEDC73EBF7D2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE3FF5344887041E40DEC8C9C7589819 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01C036036F688484CEA8DADBB4443FE8 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A52D9A057F359FE38BAC27D0CE60E92 /* CRHexagonCollectionView.modulemap */,
+				830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */,
+				C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */,
+				5896ED5ADA941FE7708AE402DE041A8E /* CRHexagonCollectionView-prefix.pch */,
+				588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */,
+				E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/CRHexagonCollectionView";
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F37869009BF458B947F007FD043C234 /* CRHexagonCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */,
+			);
+			path = CRHexagonCollectionView;
+			sourceTree = "<group>";
+		};
+		652A08C9853A310750603175EF1B85D5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9F5A33C025979B985EAC6B6764B09EA7 /* Pods-CRHexagonCollectionView_Example */,
+				84E85748AF253962830640444FEA1741 /* Pods-CRHexagonCollectionView_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				CC8F98C6F2D7629D03642B29076542C7 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */,
+				652A08C9853A310750603175EF1B85D5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		84E85748AF253962830640444FEA1741 /* Pods-CRHexagonCollectionView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7C79A0E855FF4A29410B61BAF99A4157 /* Info.plist */,
+				700F5E1E08ABF0BEC4D2D85A80619DF1 /* Pods-CRHexagonCollectionView_Tests.modulemap */,
+				1F349A8A6DC9C584AE55B7B30C2A8D4D /* Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown */,
+				E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */,
+				38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */,
+				AD5E9AFDB6E0A413FD66E6143B28F972 /* Pods-CRHexagonCollectionView_Tests-frameworks.sh */,
+				FA34857C0821EFAD43BA3C9FB3EFCCD9 /* Pods-CRHexagonCollectionView_Tests-resources.sh */,
+				1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */,
+				457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */,
+				B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */,
+			);
+			name = "Pods-CRHexagonCollectionView_Tests";
+			path = "Target Support Files/Pods-CRHexagonCollectionView_Tests";
+			sourceTree = "<group>";
+		};
+		914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */,
+				CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		9F5A33C025979B985EAC6B6764B09EA7 /* Pods-CRHexagonCollectionView_Example */ = {
+			isa = PBXGroup;
+			children = (
+				2B47C24B1F1EED03398ABD48D802A8DB /* Info.plist */,
+				74B74FA209C93305728483AB3FA4FF77 /* Pods-CRHexagonCollectionView_Example.modulemap */,
+				2593766D97F5925D0587A1B09DE0D611 /* Pods-CRHexagonCollectionView_Example-acknowledgements.markdown */,
+				2F154002A67116F4D444A9101D62568D /* Pods-CRHexagonCollectionView_Example-acknowledgements.plist */,
+				7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */,
+				9A321F351DE6A51901A2DDC25C1E1AAC /* Pods-CRHexagonCollectionView_Example-frameworks.sh */,
+				F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */,
+				C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */,
+				49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */,
+				CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */,
+			);
+			name = "Pods-CRHexagonCollectionView_Example";
+			path = "Target Support Files/Pods-CRHexagonCollectionView_Example";
+			sourceTree = "<group>";
+		};
+		B64AB57D509758F1F659C241CEEAB5FF /* CRHexagonCollectionView */ = {
+			isa = PBXGroup;
+			children = (
+				5F37869009BF458B947F007FD043C234 /* CRHexagonCollectionView */,
+				01C036036F688484CEA8DADBB4443FE8 /* Support Files */,
+			);
+			name = CRHexagonCollectionView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CC8F98C6F2D7629D03642B29076542C7 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B64AB57D509758F1F659C241CEEAB5FF /* CRHexagonCollectionView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */,
+				4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */,
+				544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0D0AADD1958F9F4ED992E70686261745 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA29558AEB597A596110267145CB3B5 /* Pods-CRHexagonCollectionView_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		337FAD501F3D8FEB7F4465D5E4588ECE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */,
+				CFD90A101DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7574BF2F31E32935B695FAA6023961BC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1261C472FDB22B6F0A85147484D07D90 /* Pods-CRHexagonCollectionView_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A99647D26ABE1DE3642FE9269E4FE3F6 /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Example" */;
+			buildPhases = (
+				402E3530618F75C86005EBA93A7F8DA9 /* Sources */,
+				CE3FF5344887041E40DEC8C9C7589819 /* Frameworks */,
+				7574BF2F31E32935B695FAA6023961BC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7653FDF7FC9AA2F6A650654CADC81205 /* PBXTargetDependency */,
+			);
+			name = "Pods-CRHexagonCollectionView_Example";
+			productName = "Pods-CRHexagonCollectionView_Example";
+			productReference = 4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		344961C85D81AF65977FEB2B55593DA4 /* Pods-CRHexagonCollectionView_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CF755E68992FA2B209DA5243DE1B578F /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Tests" */;
+			buildPhases = (
+				A551CA49484878AE9659317F55093E64 /* Sources */,
+				6CCCD07E04DED8D4DC7860CFB133F10F /* Frameworks */,
+				0D0AADD1958F9F4ED992E70686261745 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-CRHexagonCollectionView_Tests";
+			productName = "Pods-CRHexagonCollectionView_Tests";
+			productReference = 544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55B11829A7003B8557A9078B8D18184B /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView" */;
+			buildPhases = (
+				4E18A6D607387B612F4A65E889CA590C /* Sources */,
+				C92BC10D3D0ED16904E76D0BB9E9186E /* Frameworks */,
+				337FAD501F3D8FEB7F4465D5E4588ECE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CRHexagonCollectionView;
+			productName = CRHexagonCollectionView;
+			productReference = 7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */,
+				1261C472FDB22B6F0A85147484D07D90 /* Pods-CRHexagonCollectionView_Example */,
+				344961C85D81AF65977FEB2B55593DA4 /* Pods-CRHexagonCollectionView_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		402E3530618F75C86005EBA93A7F8DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4E18A6D607387B612F4A65E889CA590C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFD90A111DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m in Sources */,
+				6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A551CA49484878AE9659317F55093E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7653FDF7FC9AA2F6A650654CADC81205 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CRHexagonCollectionView;
+			target = E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */;
+			targetProxy = 8ECAAAE05BE3DA1C7431B779BBC0A281 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32EB2139CE2016A869FB2AC340E2119E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRHexagonCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = CRHexagonCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3C089E09FB29CA3A723F8857280BBEFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CRHexagonCollectionView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		60916C753DB4C3FF446C67A8F1001845 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CRHexagonCollectionView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6E801C77559618F6B81F28614FD83A5B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CRHexagonCollectionView_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7BBA5564779C3515B117C331F702D0F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CRHexagonCollectionView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = CRHexagonCollectionView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AD408A529ABB8E12D376F50366072706 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CRHexagonCollectionView_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
+				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55B11829A7003B8557A9078B8D18184B /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32EB2139CE2016A869FB2AC340E2119E /* Debug */,
+				7BBA5564779C3515B117C331F702D0F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A99647D26ABE1DE3642FE9269E4FE3F6 /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				60916C753DB4C3FF446C67A8F1001845 /* Debug */,
+				AD408A529ABB8E12D376F50366072706 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CF755E68992FA2B209DA5243DE1B578F /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E801C77559618F6B81F28614FD83A5B /* Debug */,
+				3C089E09FB29CA3A723F8857280BBEFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
