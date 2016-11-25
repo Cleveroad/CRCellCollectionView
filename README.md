@@ -1,4 +1,4 @@
-# CRHexagonCollectionView [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) <img src="https://www.cleveroad.com/public/comercial/label-ios.svg" height="20"> <a href="https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts"><img src="https://www.cleveroad.com/public/comercial/label-cleveroad.svg" height="20"></a>
+# CRCellCollectionView [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome) <img src="https://www.cleveroad.com/public/comercial/label-ios.svg" height="20"> <a href="https://www.cleveroad.com/?utm_source=github&utm_medium=label&utm_campaign=contacts"><img src="https://www.cleveroad.com/public/comercial/label-cleveroad.svg" height="20"></a>
 
 [![CI Status](http://img.shields.io/travis/Sergey/CRHexagonCollectionView.svg?style=flat)](https://travis-ci.org/Sergey/CRHexagonCollectionView)
 [![Version](https://img.shields.io/cocoapods/v/CRHexagonCollectionView.svg?style=flat)](http://cocoapods.org/pods/CRHexagonCollectionView)
@@ -7,9 +7,9 @@
 
 ![Header image](/images/header.jpg)
 
-## Cleveroad introduces HexagonCollectionView for iOS
+## Cleveroad introduces CellCollectionView for iOS
 
-Do you want to change something in your app? Start with its collection view! Cleveroad iOS developers are glad to present you CRHexagonCollectionView library. With this component, pictures in your apps collection view will look like honeycomb instead of the boring standard variant. 
+Do you want to change something in your app? Start with its collection view! Cleveroad iOS developers are glad to present you CRCellCollectionView library. With this component, pictures in your apps collection view will look like honeycomb instead of the boring standard variant. 
 
 ![Demo image](/images/demo.gif)
 
@@ -30,7 +30,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-CRHexagonCollectionView is available through [CocoaPods](http://cocoapods.org). To install
+CRCellCollectionView is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```
