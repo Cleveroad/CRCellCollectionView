@@ -1,5 +1,5 @@
 //
-//  CRHexagonCollectionViewLayout.h
+//  CRCellCollectionView.h
 //  Pods
 //
 //  Created by Sergey Chuchukalo on 10/5/16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CRHexagonCollectionViewLayout : UICollectionViewFlowLayout
+@interface CRCellCollectionView : UICollectionViewFlowLayout
 
 @end

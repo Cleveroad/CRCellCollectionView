@@ -1,14 +1,14 @@
 //
-//  CRHexagonCollectionViewLayout.m
+//  CRCellCollectionView.m
 //  Pods
 //
 //  Created by Sergey Chuchukalo on 10/5/16.
 //
 //  Copyright © 2016 Cleveroad Inc. All rights reserved.
 
-#import "CRHexagonCollectionViewLayout.h"
+#import "CRCellCollectionView.h"
 
-@interface CRHexagonCollectionViewLayout()
+@interface CRCellCollectionView()
 
 @property (assign, nonatomic) NSInteger itemsPerRow;
 @property (assign, nonatomic) NSInteger itemsInlargeLine;
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation CRHexagonCollectionViewLayout
+@implementation CRCellCollectionView
 - (void)prepareLayout {
     [super prepareLayout];
     
