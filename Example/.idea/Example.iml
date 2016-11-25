@@ -28,32 +28,30 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CRHexagonCollectionView/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../CRHexagonCollectionView/Classes/CRHexagonCollectionViewLayout.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/../CRHexagonCollectionView/Classes/CRHexagonCollectionViewLayout.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../CRHexagonCollectionView/Classes/CRCellCollectionView.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/../CRHexagonCollectionView/Classes/CRCellCollectionView.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/../CRHexagonCollectionView.podspec" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/CRHexagonCollectionView-ehpibdjpwreupccptsyyhrpbqsvc/Build/Intermediates/Pods.build/Debug-iphoneos/CRHexagonCollectionView.build/DerivedSources" />
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/CRHexagonCollectionView-ehpibdjpwreupccptsyyhrpbqsvc/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-CRHexagonCollectionView_Example.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
