@@ -10,11 +10,6 @@
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
-		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
-		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
-		6003F59E195388D20070C39A /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* CRAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* CRViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -22,9 +17,15 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		61A44D3533EA43EC494E527A /* Pods_CRHexagonCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 89B6CEA3FDC3B1C143D0BC25 /* Pods_CRHexagonCollectionView_Example.framework */; };
 		6585656369272C6164005286 /* Pods_CRHexagonCollectionView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64B1E73D5E04C69846BBF7B4 /* Pods_CRHexagonCollectionView_Tests.framework */; };
-		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		CFD90A091DA4E729006A5EA1 /* CRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD90A081DA4E729006A5EA1 /* CRCollectionViewCell.m */; };
-		CFD90A131DA4E984006A5EA1 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFD90A121DA4E984006A5EA1 /* Launch Screen.storyboard */; };
+		8EB550BC1DE8B66D00B79915 /* CRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550B01DE8B66D00B79915 /* CRAppDelegate.m */; };
+		8EB550BD1DE8B66D00B79915 /* CRCellCollectionView-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8EB550B11DE8B66D00B79915 /* CRCellCollectionView-Info.plist */; };
+		8EB550BE1DE8B66D00B79915 /* CRCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550B41DE8B66D00B79915 /* CRCollectionViewCell.m */; };
+		8EB550BF1DE8B66D00B79915 /* CRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550B61DE8B66D00B79915 /* CRViewController.m */; };
+		8EB550C01DE8B66D00B79915 /* en.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 8EB550B71DE8B66D00B79915 /* en.lproj */; };
+		8EB550C11DE8B66D00B79915 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8EB550B81DE8B66D00B79915 /* Images.xcassets */; };
+		8EB550C21DE8B66D00B79915 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB550B91DE8B66D00B79915 /* Launch Screen.storyboard */; };
+		8EB550C31DE8B66D00B79915 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550BA1DE8B66D00B79915 /* main.m */; };
+		8EB550C41DE8B66D00B79915 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8EB550BB1DE8B66D00B79915 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,15 +43,6 @@
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* CRCellCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRCellCollectionView-Info.plist"; sourceTree = "<group>"; };
-		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* CRCellCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRCellCollectionView-Prefix.pch"; sourceTree = "<group>"; };
-		6003F59C195388D20070C39A /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
-		6003F59D195388D20070C39A /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* CRCellCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRCellCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -59,13 +51,22 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		64B1E73D5E04C69846BBF7B4 /* Pods_CRHexagonCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		82D019768CF247A6F8682942 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRHexagonCollectionView_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		89B6CEA3FDC3B1C143D0BC25 /* Pods_CRHexagonCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8EB550AF1DE8B66D00B79915 /* CRAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRAppDelegate.h; path = CRCellCollectionView/CRAppDelegate.h; sourceTree = SOURCE_ROOT; };
+		8EB550B01DE8B66D00B79915 /* CRAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRAppDelegate.m; path = CRCellCollectionView/CRAppDelegate.m; sourceTree = SOURCE_ROOT; };
+		8EB550B11DE8B66D00B79915 /* CRCellCollectionView-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "CRCellCollectionView-Info.plist"; path = "CRCellCollectionView/CRCellCollectionView-Info.plist"; sourceTree = SOURCE_ROOT; };
+		8EB550B21DE8B66D00B79915 /* CRCellCollectionView-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "CRCellCollectionView-Prefix.pch"; path = "CRCellCollectionView/CRCellCollectionView-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		8EB550B31DE8B66D00B79915 /* CRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCollectionViewCell.h; path = CRCellCollectionView/CRCollectionViewCell.h; sourceTree = SOURCE_ROOT; };
+		8EB550B41DE8B66D00B79915 /* CRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCollectionViewCell.m; path = CRCellCollectionView/CRCollectionViewCell.m; sourceTree = SOURCE_ROOT; };
+		8EB550B51DE8B66D00B79915 /* CRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRViewController.h; path = CRCellCollectionView/CRViewController.h; sourceTree = SOURCE_ROOT; };
+		8EB550B61DE8B66D00B79915 /* CRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRViewController.m; path = CRCellCollectionView/CRViewController.m; sourceTree = SOURCE_ROOT; };
+		8EB550B71DE8B66D00B79915 /* en.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; name = en.lproj; path = CRCellCollectionView/en.lproj; sourceTree = SOURCE_ROOT; };
+		8EB550B81DE8B66D00B79915 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = CRCellCollectionView/Images.xcassets; sourceTree = SOURCE_ROOT; };
+		8EB550B91DE8B66D00B79915 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Launch Screen.storyboard"; path = "CRCellCollectionView/Launch Screen.storyboard"; sourceTree = SOURCE_ROOT; };
+		8EB550BA1DE8B66D00B79915 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = CRCellCollectionView/main.m; sourceTree = SOURCE_ROOT; };
+		8EB550BB1DE8B66D00B79915 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = CRCellCollectionView/Main.storyboard; sourceTree = SOURCE_ROOT; };
 		8F07FCF6D0F5B260A98D2EC6 /* CRCellCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CRCellCollectionView.podspec; path = ../CRCellCollectionView.podspec; sourceTree = "<group>"; };
 		CDAEEC4A37663889B570C27A /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRHexagonCollectionView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		CFD90A071DA4E729006A5EA1 /* CRCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCollectionViewCell.h; sourceTree = "<group>"; };
-		CFD90A081DA4E729006A5EA1 /* CRCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCollectionViewCell.m; sourceTree = "<group>"; };
-		CFD90A121DA4E984006A5EA1 /* Launch Screen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		DDBFD4D2CDCF5FE36E171E1A /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CRHexagonCollectionView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E71754DD767E771D85C0B0C7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		F1822F0FECCC77CDB7D1E8FE /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -146,30 +147,22 @@
 		6003F593195388D20070C39A /* Example for CRCellCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				6003F59C195388D20070C39A /* CRAppDelegate.h */,
-				6003F59D195388D20070C39A /* CRAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* CRViewController.h */,
-				6003F5A6195388D20070C39A /* CRViewController.m */,
-				CFD90A071DA4E729006A5EA1 /* CRCollectionViewCell.h */,
-				CFD90A081DA4E729006A5EA1 /* CRCollectionViewCell.m */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
-				6003F594195388D20070C39A /* Supporting Files */,
-				CFD90A121DA4E984006A5EA1 /* Launch Screen.storyboard */,
+				8EB550AF1DE8B66D00B79915 /* CRAppDelegate.h */,
+				8EB550B01DE8B66D00B79915 /* CRAppDelegate.m */,
+				8EB550B11DE8B66D00B79915 /* CRCellCollectionView-Info.plist */,
+				8EB550B21DE8B66D00B79915 /* CRCellCollectionView-Prefix.pch */,
+				8EB550B31DE8B66D00B79915 /* CRCollectionViewCell.h */,
+				8EB550B41DE8B66D00B79915 /* CRCollectionViewCell.m */,
+				8EB550B51DE8B66D00B79915 /* CRViewController.h */,
+				8EB550B61DE8B66D00B79915 /* CRViewController.m */,
+				8EB550B71DE8B66D00B79915 /* en.lproj */,
+				8EB550B81DE8B66D00B79915 /* Images.xcassets */,
+				8EB550B91DE8B66D00B79915 /* Launch Screen.storyboard */,
+				8EB550BA1DE8B66D00B79915 /* main.m */,
+				8EB550BB1DE8B66D00B79915 /* Main.storyboard */,
 			);
 			name = "Example for CRCellCollectionView";
 			path = CRHexagonCollectionView;
-			sourceTree = "<group>";
-		};
-		6003F594195388D20070C39A /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				6003F595195388D20070C39A /* CRCellCollectionView-Info.plist */,
-				6003F596195388D20070C39A /* InfoPlist.strings */,
-				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* CRCellCollectionView-Prefix.pch */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		6003F5B5195388D20070C39A /* Tests */ = {
@@ -288,10 +281,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				CFD90A131DA4E984006A5EA1 /* Launch Screen.storyboard in Resources */,
-				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				8EB550C11DE8B66D00B79915 /* Images.xcassets in Resources */,
+				8EB550C01DE8B66D00B79915 /* en.lproj in Resources */,
+				8EB550BD1DE8B66D00B79915 /* CRCellCollectionView-Info.plist in Resources */,
+				8EB550C41DE8B66D00B79915 /* Main.storyboard in Resources */,
+				8EB550C21DE8B66D00B79915 /* Launch Screen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,10 +397,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F59E195388D20070C39A /* CRAppDelegate.m in Sources */,
-				CFD90A091DA4E729006A5EA1 /* CRCollectionViewCell.m in Sources */,
-				6003F5A7195388D20070C39A /* CRViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
+				8EB550BF1DE8B66D00B79915 /* CRViewController.m in Sources */,
+				8EB550BC1DE8B66D00B79915 /* CRAppDelegate.m in Sources */,
+				8EB550BE1DE8B66D00B79915 /* CRCollectionViewCell.m in Sources */,
+				8EB550C31DE8B66D00B79915 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,14 +423,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		6003F596195388D20070C39A /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F597195388D20070C39A /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -540,8 +526,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TS4L5392F8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRCellCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "CRHexagonCollectionView/CRCellCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CRCellCollectionView/CRCellCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CRCellCollectionView/CRCellCollectionView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CRCellCollectionView-Example";
@@ -561,8 +547,8 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = TS4L5392F8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRCellCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "CRHexagonCollectionView/CRCellCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CRCellCollectionView/CRCellCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CRCellCollectionView/CRCellCollectionView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CRCellCollectionView-Example";
