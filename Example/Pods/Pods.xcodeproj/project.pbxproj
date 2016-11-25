@@ -11,9 +11,13 @@
 		301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */; };
 		60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */; };
 		6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */; };
+		8EB550621DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
+		8EB550631DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
+		8EB550641DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
+		8EB550651DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
+		8EB550661DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
+		8EB550671DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
 		CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFD90A101DA4E8E3006A5EA1 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */; };
-		CFD90A111DA4E8E3006A5EA1 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */; };
 		D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -50,6 +54,8 @@
 		7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRHexagonCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C79A0E855FF4A29410B61BAF99A4157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHexagonCollectionView.xcconfig; sourceTree = "<group>"; };
+		8EB550601DE8B33900B79915 /* CRCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCellCollectionView.h; path = ../../CRCellCollectionView/Classes/CRCellCollectionView.h; sourceTree = "<group>"; };
+		8EB550611DE8B33900B79915 /* CRCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCellCollectionView.m; path = ../../CRCellCollectionView/Classes/CRCellCollectionView.m; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		9A321F351DE6A51901A2DDC25C1E1AAC /* Pods-CRHexagonCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
 		AD5E9AFDB6E0A413FD66E6143B28F972 /* Pods-CRHexagonCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
@@ -58,8 +64,6 @@
 		C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCellCollectionView.h; sourceTree = "<group>"; };
-		CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCellCollectionView.m; sourceTree = "<group>"; };
 		E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -166,8 +170,8 @@
 		914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */,
-				CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */,
+				8EB550601DE8B33900B79915 /* CRCellCollectionView.h */,
+				8EB550611DE8B33900B79915 /* CRCellCollectionView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -233,6 +237,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB550641DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
 				FFA29558AEB597A596110267145CB3B5 /* Pods-CRHexagonCollectionView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,8 +246,8 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB550621DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
 				CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */,
-				CFD90A101DA4E8E3006A5EA1 /* CRCellCollectionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +255,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8EB550631DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
 				FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -343,6 +349,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */,
+				8EB550661DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,8 +357,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD90A111DA4E8E3006A5EA1 /* CRCellCollectionView.m in Sources */,
 				6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */,
+				8EB550651DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,6 +367,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */,
+				8EB550671DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
