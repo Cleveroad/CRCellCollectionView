@@ -7,7 +7,7 @@
 
 ![Header image](/images/header.jpg)
 
-## Meet CRHexagonCollectionView - Customizable UICollectionView for iOS
+## Cleveroad introduces HexagonCollectionView for iOS
 
 Do you want to change something in your app? Start with its collection view! Cleveroad iOS developers are glad to present you CRHexagonCollectionView library. With this component, pictures in your apps collection view will look like honeycomb instead of the boring standard variant. 
 
