@@ -39,7 +39,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="432" id="KbS-fN-dak"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="UtG-TL-GYp" customClass="CRHexagonCollectionViewLayout">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="5" minimumInteritemSpacing="5" id="UtG-TL-GYp" customClass="CRCellCollectionView">
                                     <size key="itemSize" width="85" height="85"/>
                                     <size key="headerReferenceSize" width="10" height="30"/>
                                     <size key="footerReferenceSize" width="10" height="30"/>
@@ -85,7 +85,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="432" id="bM4-A7-RYO"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="40" minimumInteritemSpacing="10" id="T0B-QB-SVr" customClass="CRHexagonCollectionViewLayout">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="40" minimumInteritemSpacing="10" id="T0B-QB-SVr" customClass="CRCellCollectionView">
                                     <size key="itemSize" width="130" height="130"/>
                                     <size key="headerReferenceSize" width="10" height="0.0"/>
                                     <size key="footerReferenceSize" width="10" height="0.0"/>
@@ -131,7 +131,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="432" id="ted-ad-IGD"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="60" minimumInteritemSpacing="10" id="p9M-PP-dvW" customClass="CRHexagonCollectionViewLayout">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="60" minimumInteritemSpacing="10" id="p9M-PP-dvW" customClass="CRCellCollectionView">
                                     <size key="itemSize" width="75" height="75"/>
                                     <size key="headerReferenceSize" width="10" height="0.0"/>
                                     <size key="footerReferenceSize" width="10" height="0.0"/>
@@ -177,7 +177,7 @@
                                 <constraints>
                                     <constraint firstAttribute="height" constant="432" id="9cU-cx-5JH"/>
                                 </constraints>
-                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="90" minimumInteritemSpacing="10" id="vlj-dj-jL7" customClass="CRHexagonCollectionViewLayout">
+                                <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="90" minimumInteritemSpacing="10" id="vlj-dj-jL7" customClass="CRCellCollectionView">
                                     <size key="itemSize" width="100" height="100"/>
                                     <size key="headerReferenceSize" width="10" height="0.0"/>
                                     <size key="footerReferenceSize" width="10" height="0.0"/>

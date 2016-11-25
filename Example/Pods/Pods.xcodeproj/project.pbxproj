@@ -12,8 +12,8 @@
 		60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */; };
 		6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */; };
 		CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CFD90A101DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */; };
-		CFD90A111DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */; };
+		CFD90A101DA4E8E3006A5EA1 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */; };
+		CFD90A111DA4E8E3006A5EA1 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */; };
 		D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -58,8 +58,8 @@
 		C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
 		CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRHexagonCollectionViewLayout.h; sourceTree = "<group>"; };
-		CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRHexagonCollectionViewLayout.m; sourceTree = "<group>"; };
+		CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CRCellCollectionView.h; sourceTree = "<group>"; };
+		CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CRCellCollectionView.m; sourceTree = "<group>"; };
 		E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
@@ -116,11 +116,12 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		5F37869009BF458B947F007FD043C234 /* CRHexagonCollectionView */ = {
+		5F37869009BF458B947F007FD043C234 /* CRCellCollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */,
 			);
+			name = CRCellCollectionView;
 			path = CRHexagonCollectionView;
 			sourceTree = "<group>";
 		};
@@ -165,8 +166,8 @@
 		914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				CFD90A0E1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h */,
-				CFD90A0F1DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m */,
+				CFD90A0E1DA4E8E3006A5EA1 /* CRCellCollectionView.h */,
+				CFD90A0F1DA4E8E3006A5EA1 /* CRCellCollectionView.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -189,13 +190,13 @@
 			path = "Target Support Files/Pods-CRHexagonCollectionView_Example";
 			sourceTree = "<group>";
 		};
-		B64AB57D509758F1F659C241CEEAB5FF /* CRHexagonCollectionView */ = {
+		B64AB57D509758F1F659C241CEEAB5FF /* CRCellCollectionView */ = {
 			isa = PBXGroup;
 			children = (
-				5F37869009BF458B947F007FD043C234 /* CRHexagonCollectionView */,
+				5F37869009BF458B947F007FD043C234 /* CRCellCollectionView */,
 				01C036036F688484CEA8DADBB4443FE8 /* Support Files */,
 			);
-			name = CRHexagonCollectionView;
+			name = CRCellCollectionView;
 			path = ../..;
 			sourceTree = "<group>";
 		};
@@ -210,7 +211,7 @@
 		CC8F98C6F2D7629D03642B29076542C7 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B64AB57D509758F1F659C241CEEAB5FF /* CRHexagonCollectionView */,
+				B64AB57D509758F1F659C241CEEAB5FF /* CRCellCollectionView */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -241,7 +242,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */,
-				CFD90A101DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.h in Headers */,
+				CFD90A101DA4E8E3006A5EA1 /* CRCellCollectionView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,7 +350,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFD90A111DA4E8E3006A5EA1 /* CRHexagonCollectionViewLayout.m in Sources */,
+				CFD90A111DA4E8E3006A5EA1 /* CRCellCollectionView.m in Sources */,
 				6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

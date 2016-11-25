@@ -34,7 +34,7 @@ CRCellCollectionView is available through [CocoaPods](http://cocoapods.org). To 
 it, simply add the following line to your Podfile:
 
 ```
-pod "CRHexagonCollectionView"
+pod "CRCellCollectionView"
 ```
 
 and run pod install in terminal.
