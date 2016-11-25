@@ -38,20 +38,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		6003F58A195388D20070C39A /* CRHexagonCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRHexagonCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F58A195388D20070C39A /* CRCellCollectionView_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CRCellCollectionView_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		6003F595195388D20070C39A /* CRHexagonCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRHexagonCollectionView-Info.plist"; sourceTree = "<group>"; };
+		6003F595195388D20070C39A /* CRCellCollectionView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CRCellCollectionView-Info.plist"; sourceTree = "<group>"; };
 		6003F597195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F599195388D20070C39A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6003F59B195388D20070C39A /* CRHexagonCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRHexagonCollectionView-Prefix.pch"; sourceTree = "<group>"; };
+		6003F59B195388D20070C39A /* CRCellCollectionView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CRCellCollectionView-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* CRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* CRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* CRViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CRViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* CRViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CRViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* CRHexagonCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRHexagonCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* CRCellCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CRCellCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -113,7 +113,7 @@
 			isa = PBXGroup;
 			children = (
 				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* Example for CRHexagonCollectionView */,
+				6003F593195388D20070C39A /* Example for CRCellCollectionView */,
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
@@ -124,8 +124,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* CRHexagonCollectionView_Example.app */,
-				6003F5AE195388D20070C39A /* CRHexagonCollectionView_Tests.xctest */,
+				6003F58A195388D20070C39A /* CRCellCollectionView_Example.app */,
+				6003F5AE195388D20070C39A /* CRCellCollectionView_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,7 +143,7 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		6003F593195388D20070C39A /* Example for CRHexagonCollectionView */ = {
+		6003F593195388D20070C39A /* Example for CRCellCollectionView */ = {
 			isa = PBXGroup;
 			children = (
 				6003F59C195388D20070C39A /* CRAppDelegate.h */,
@@ -157,17 +157,17 @@
 				6003F594195388D20070C39A /* Supporting Files */,
 				CFD90A121DA4E984006A5EA1 /* Launch Screen.storyboard */,
 			);
-			name = "Example for CRHexagonCollectionView";
+			name = "Example for CRCellCollectionView";
 			path = CRHexagonCollectionView;
 			sourceTree = "<group>";
 		};
 		6003F594195388D20070C39A /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				6003F595195388D20070C39A /* CRHexagonCollectionView-Info.plist */,
+				6003F595195388D20070C39A /* CRCellCollectionView-Info.plist */,
 				6003F596195388D20070C39A /* InfoPlist.strings */,
 				6003F599195388D20070C39A /* main.m */,
-				6003F59B195388D20070C39A /* CRHexagonCollectionView-Prefix.pch */,
+				6003F59B195388D20070C39A /* CRCellCollectionView-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -204,9 +204,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		6003F589195388D20070C39A /* CRHexagonCollectionView_Example */ = {
+		6003F589195388D20070C39A /* CRCellCollectionView_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView_Example" */;
+			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CRCellCollectionView_Example" */;
 			buildPhases = (
 				664F32B42C8B56A463D34C53 /* [CP] Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
@@ -219,14 +219,14 @@
 			);
 			dependencies = (
 			);
-			name = CRHexagonCollectionView_Example;
+			name = CRCellCollectionView_Example;
 			productName = CRHexagonCollectionView;
-			productReference = 6003F58A195388D20070C39A /* CRHexagonCollectionView_Example.app */;
+			productReference = 6003F58A195388D20070C39A /* CRCellCollectionView_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		6003F5AD195388D20070C39A /* CRHexagonCollectionView_Tests */ = {
+		6003F5AD195388D20070C39A /* CRCellCollectionView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView_Tests" */;
+			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CRCellCollectionView_Tests" */;
 			buildPhases = (
 				FC06B2D6478658E996D7E89D /* [CP] Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
@@ -240,9 +240,9 @@
 			dependencies = (
 				6003F5B4195388D20070C39A /* PBXTargetDependency */,
 			);
-			name = CRHexagonCollectionView_Tests;
+			name = CRCellCollectionView_Tests;
 			productName = CRHexagonCollectionViewTests;
-			productReference = 6003F5AE195388D20070C39A /* CRHexagonCollectionView_Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* CRCellCollectionView_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -264,7 +264,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CRHexagonCollectionView" */;
+			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "CRCellCollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -277,8 +277,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6003F589195388D20070C39A /* CRHexagonCollectionView_Example */,
-				6003F5AD195388D20070C39A /* CRHexagonCollectionView_Tests */,
+				6003F589195388D20070C39A /* CRCellCollectionView_Example */,
+				6003F5AD195388D20070C39A /* CRCellCollectionView_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -423,7 +423,7 @@
 /* Begin PBXTargetDependency section */
 		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* CRHexagonCollectionView_Example */;
+			target = 6003F589195388D20070C39A /* CRCellCollectionView_Example */;
 			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -540,11 +540,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = TS4L5392F8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRHexagonCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "CRHexagonCollectionView/CRHexagonCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRCellCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CRHexagonCollectionView/CRCellCollectionView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CRCellCollectionView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "df4f562d-6dea-4514-90d6-0e7a2f0f7517";
 				PROVISIONING_PROFILE_SPECIFIER = UniversalDev;
@@ -561,11 +561,11 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				DEVELOPMENT_TEAM = TS4L5392F8;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRHexagonCollectionView-Prefix.pch";
-				INFOPLIST_FILE = "CRHexagonCollectionView/CRHexagonCollectionView-Info.plist";
+				GCC_PREFIX_HEADER = "CRHexagonCollectionView/CRCellCollectionView-Prefix.pch";
+				INFOPLIST_FILE = "CRHexagonCollectionView/CRCellCollectionView-Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.CRCellCollectionView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "823ec52e-9f7e-4b1a-8d16-ed92cf2bd536";
 				PROVISIONING_PROFILE_SPECIFIER = UniversalAdHoc;
@@ -592,7 +592,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRHexagonCollectionView_Example.app/CRHexagonCollectionView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRCellCollectionView_Example.app/CRCellCollectionView_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -612,7 +612,7 @@
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRHexagonCollectionView_Example.app/CRHexagonCollectionView_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CRCellCollectionView_Example.app/CRCellCollectionView_Example";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -620,7 +620,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		6003F585195388D10070C39A /* Build configuration list for PBXProject "CRHexagonCollectionView" */ = {
+		6003F585195388D10070C39A /* Build configuration list for PBXProject "CRCellCollectionView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5BD195388D20070C39A /* Debug */,
@@ -629,7 +629,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView_Example" */ = {
+		6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "CRCellCollectionView_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C0195388D20070C39A /* Debug */,
@@ -638,7 +638,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView_Tests" */ = {
+		6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "CRCellCollectionView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6003F5C3195388D20070C39A /* Debug */,

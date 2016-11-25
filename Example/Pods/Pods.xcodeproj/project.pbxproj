@@ -441,6 +441,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CRCellCollectionView;
 				PRODUCT_NAME = CRHexagonCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -569,6 +570,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
 				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CRCellCollectionView;
 				PRODUCT_NAME = CRHexagonCollectionView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
