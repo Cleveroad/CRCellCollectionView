@@ -1,16 +1,16 @@
 PODS:
-  - CRHexagonCollectionView (0.1.0)
+  - CRCellCollectionView (0.1.0)
 
 DEPENDENCIES:
-  - CRHexagonCollectionView (from `../`)
+  - CRCellCollectionView (from `../`)
 
 EXTERNAL SOURCES:
-  CRHexagonCollectionView:
+  CRCellCollectionView:
     :path: ../
 
 SPEC CHECKSUMS:
-  CRHexagonCollectionView: 251561f3585eab008add458b5fddd6258f20b8f0
+  CRCellCollectionView: 8d42c32329458e8725ab6caae36b5997a361de7c
 
-PODFILE CHECKSUM: bfb55994625cc8b41f200614da54862899973ad5
+PODFILE CHECKSUM: d27049cfa11056dfeed02a1a73964d7cd8668f4d
 
 COCOAPODS: 1.0.1

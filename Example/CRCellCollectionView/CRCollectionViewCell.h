@@ -1,6 +1,6 @@
 //
 //  CRCollectionViewCell.h
-//  CRHexagonCollectionView
+//  CRCellCollectionView
 //
 //  Created by Sergey Chuchukalo on 10/5/16.
 //

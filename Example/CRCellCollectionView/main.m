@@ -1,6 +1,6 @@
 //
 //  main.m
-//  CRHexagonCollectionView
+//  CRCellCollectionView
 //
 //  Created by Sergey on 10/05/2016.
 //

@@ -1,6 +1,6 @@
 //
 //  CRAppDelegate.m
-//  CRHexagonCollectionView
+//  CRCellCollectionView
 //
 //  Created by Sergey Chuchukalo on 10/05/2016.
 //

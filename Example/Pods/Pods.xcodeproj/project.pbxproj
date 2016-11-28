@@ -1,700 +1,1612 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		198155C41016573C90FADEDC73EBF7D2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */; };
-		60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */; };
-		6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */; };
-		8EB550621DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
-		8EB550631DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
-		8EB550641DE8B33900B79915 /* CRCellCollectionView.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB550601DE8B33900B79915 /* CRCellCollectionView.h */; };
-		8EB550651DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
-		8EB550661DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
-		8EB550671DE8B33900B79915 /* CRCellCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EB550611DE8B33900B79915 /* CRCellCollectionView.m */; };
-		CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
-		FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FFA29558AEB597A596110267145CB3B5 /* Pods-CRHexagonCollectionView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		8ECAAAE05BE3DA1C7431B779BBC0A281 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E12AD1C1BA4153DAC1A65ACEA6E077A9;
-			remoteInfo = CRHexagonCollectionView;
-		};
-/* End PBXContainerItemProxy section */
-
-/* Begin PBXFileReference section */
-		0A52D9A057F359FE38BAC27D0CE60E92 /* CRHexagonCollectionView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = CRHexagonCollectionView.modulemap; sourceTree = "<group>"; };
-		1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		1F349A8A6DC9C584AE55B7B30C2A8D4D /* Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2593766D97F5925D0587A1B09DE0D611 /* Pods-CRHexagonCollectionView_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CRHexagonCollectionView_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2B47C24B1F1EED03398ABD48D802A8DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2F154002A67116F4D444A9101D62568D /* Pods-CRHexagonCollectionView_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHexagonCollectionView_Tests-dummy.m"; sourceTree = "<group>"; };
-		457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CRHexagonCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHexagonCollectionView-umbrella.h"; sourceTree = "<group>"; };
-		5896ED5ADA941FE7708AE402DE041A8E /* CRHexagonCollectionView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CRHexagonCollectionView-prefix.pch"; sourceTree = "<group>"; };
-		700F5E1E08ABF0BEC4D2D85A80619DF1 /* Pods-CRHexagonCollectionView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CRHexagonCollectionView_Tests.modulemap"; sourceTree = "<group>"; };
-		7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CRHexagonCollectionView_Example-dummy.m"; sourceTree = "<group>"; };
-		74B74FA209C93305728483AB3FA4FF77 /* Pods-CRHexagonCollectionView_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-CRHexagonCollectionView_Example.modulemap"; sourceTree = "<group>"; };
-		7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CRHexagonCollectionView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7C79A0E855FF4A29410B61BAF99A4157 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CRHexagonCollectionView.xcconfig; sourceTree = "<group>"; };
-		8EB550601DE8B33900B79915 /* CRCellCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CRCellCollectionView.h; path = ../../CRCellCollectionView/Classes/CRCellCollectionView.h; sourceTree = "<group>"; };
-		8EB550611DE8B33900B79915 /* CRCellCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRCellCollectionView.m; path = ../../CRCellCollectionView/Classes/CRCellCollectionView.m; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9A321F351DE6A51901A2DDC25C1E1AAC /* Pods-CRHexagonCollectionView_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-frameworks.sh"; sourceTree = "<group>"; };
-		AD5E9AFDB6E0A413FD66E6143B28F972 /* Pods-CRHexagonCollectionView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CRHexagonCollectionView-dummy.m"; sourceTree = "<group>"; };
-		C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CRHexagonCollectionView_Example-umbrella.h"; sourceTree = "<group>"; };
-		CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CRHexagonCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
-		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CRHexagonCollectionView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Example-resources.sh"; sourceTree = "<group>"; };
-		FA34857C0821EFAD43BA3C9FB3EFCCD9 /* Pods-CRHexagonCollectionView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CRHexagonCollectionView_Tests-resources.sh"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		6CCCD07E04DED8D4DC7860CFB133F10F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D8816F97DEB456CC9CD1A490A87447B6 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C92BC10D3D0ED16904E76D0BB9E9186E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				198155C41016573C90FADEDC73EBF7D2 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		CE3FF5344887041E40DEC8C9C7589819 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				D73A827A8685B549C07704BA66640C4D /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		01C036036F688484CEA8DADBB4443FE8 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				0A52D9A057F359FE38BAC27D0CE60E92 /* CRHexagonCollectionView.modulemap */,
-				830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */,
-				C3786912E1C3C5031484AAA0808A4868 /* CRHexagonCollectionView-dummy.m */,
-				5896ED5ADA941FE7708AE402DE041A8E /* CRHexagonCollectionView-prefix.pch */,
-				588D6F12B1D5053CDF48FE5741288549 /* CRHexagonCollectionView-umbrella.h */,
-				E3E77FD967CF06DFA75AFFCD9E34C5B1 /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/CRHexagonCollectionView";
-			sourceTree = "<group>";
-		};
-		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		5F37869009BF458B947F007FD043C234 /* CRCellCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */,
-			);
-			name = CRCellCollectionView;
-			path = CRHexagonCollectionView;
-			sourceTree = "<group>";
-		};
-		652A08C9853A310750603175EF1B85D5 /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				9F5A33C025979B985EAC6B6764B09EA7 /* Pods-CRHexagonCollectionView_Example */,
-				84E85748AF253962830640444FEA1741 /* Pods-CRHexagonCollectionView_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				CC8F98C6F2D7629D03642B29076542C7 /* Development Pods */,
-				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
-				D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */,
-				652A08C9853A310750603175EF1B85D5 /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		84E85748AF253962830640444FEA1741 /* Pods-CRHexagonCollectionView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				7C79A0E855FF4A29410B61BAF99A4157 /* Info.plist */,
-				700F5E1E08ABF0BEC4D2D85A80619DF1 /* Pods-CRHexagonCollectionView_Tests.modulemap */,
-				1F349A8A6DC9C584AE55B7B30C2A8D4D /* Pods-CRHexagonCollectionView_Tests-acknowledgements.markdown */,
-				E339CAD117450926AFA20C0A6A0720A2 /* Pods-CRHexagonCollectionView_Tests-acknowledgements.plist */,
-				38F3061BF7070610A88AEE40E6033A62 /* Pods-CRHexagonCollectionView_Tests-dummy.m */,
-				AD5E9AFDB6E0A413FD66E6143B28F972 /* Pods-CRHexagonCollectionView_Tests-frameworks.sh */,
-				FA34857C0821EFAD43BA3C9FB3EFCCD9 /* Pods-CRHexagonCollectionView_Tests-resources.sh */,
-				1BE3F71094C9824DB043E8A2FF02362B /* Pods-CRHexagonCollectionView_Tests-umbrella.h */,
-				457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */,
-				B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */,
-			);
-			name = "Pods-CRHexagonCollectionView_Tests";
-			path = "Target Support Files/Pods-CRHexagonCollectionView_Tests";
-			sourceTree = "<group>";
-		};
-		914FF4B2B9922C32E1465F9DCCFBB573 /* Classes */ = {
-			isa = PBXGroup;
-			children = (
-				8EB550601DE8B33900B79915 /* CRCellCollectionView.h */,
-				8EB550611DE8B33900B79915 /* CRCellCollectionView.m */,
-			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		9F5A33C025979B985EAC6B6764B09EA7 /* Pods-CRHexagonCollectionView_Example */ = {
-			isa = PBXGroup;
-			children = (
-				2B47C24B1F1EED03398ABD48D802A8DB /* Info.plist */,
-				74B74FA209C93305728483AB3FA4FF77 /* Pods-CRHexagonCollectionView_Example.modulemap */,
-				2593766D97F5925D0587A1B09DE0D611 /* Pods-CRHexagonCollectionView_Example-acknowledgements.markdown */,
-				2F154002A67116F4D444A9101D62568D /* Pods-CRHexagonCollectionView_Example-acknowledgements.plist */,
-				7345C042D24BE454F24EE024441597FE /* Pods-CRHexagonCollectionView_Example-dummy.m */,
-				9A321F351DE6A51901A2DDC25C1E1AAC /* Pods-CRHexagonCollectionView_Example-frameworks.sh */,
-				F1D1BCCA3C8DB7B32E96640DA114F935 /* Pods-CRHexagonCollectionView_Example-resources.sh */,
-				C6D5703211A75A2318A95A6076304038 /* Pods-CRHexagonCollectionView_Example-umbrella.h */,
-				49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */,
-				CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */,
-			);
-			name = "Pods-CRHexagonCollectionView_Example";
-			path = "Target Support Files/Pods-CRHexagonCollectionView_Example";
-			sourceTree = "<group>";
-		};
-		B64AB57D509758F1F659C241CEEAB5FF /* CRCellCollectionView */ = {
-			isa = PBXGroup;
-			children = (
-				5F37869009BF458B947F007FD043C234 /* CRCellCollectionView */,
-				01C036036F688484CEA8DADBB4443FE8 /* Support Files */,
-			);
-			name = CRCellCollectionView;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		CC8F98C6F2D7629D03642B29076542C7 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				B64AB57D509758F1F659C241CEEAB5FF /* CRCellCollectionView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */,
-				4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */,
-				544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXHeadersBuildPhase section */
-		0D0AADD1958F9F4ED992E70686261745 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB550641DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
-				FFA29558AEB597A596110267145CB3B5 /* Pods-CRHexagonCollectionView_Tests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		337FAD501F3D8FEB7F4465D5E4588ECE /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB550621DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
-				CA1E48C43C15F576CE352D4FE3AE7A0F /* CRHexagonCollectionView-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		7574BF2F31E32935B695FAA6023961BC /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				8EB550631DE8B33900B79915 /* CRCellCollectionView.h in Headers */,
-				FAE61EF340D20D42343CEF7D1EA7FFBE /* Pods-CRHexagonCollectionView_Example-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
-/* Begin PBXNativeTarget section */
-		1261C472FDB22B6F0A85147484D07D90 /* Pods-CRHexagonCollectionView_Example */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A99647D26ABE1DE3642FE9269E4FE3F6 /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Example" */;
-			buildPhases = (
-				402E3530618F75C86005EBA93A7F8DA9 /* Sources */,
-				CE3FF5344887041E40DEC8C9C7589819 /* Frameworks */,
-				7574BF2F31E32935B695FAA6023961BC /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				7653FDF7FC9AA2F6A650654CADC81205 /* PBXTargetDependency */,
-			);
-			name = "Pods-CRHexagonCollectionView_Example";
-			productName = "Pods-CRHexagonCollectionView_Example";
-			productReference = 4EFB737EE73501405FBE3C4C356FB84F /* Pods_CRHexagonCollectionView_Example.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		344961C85D81AF65977FEB2B55593DA4 /* Pods-CRHexagonCollectionView_Tests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = CF755E68992FA2B209DA5243DE1B578F /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Tests" */;
-			buildPhases = (
-				A551CA49484878AE9659317F55093E64 /* Sources */,
-				6CCCD07E04DED8D4DC7860CFB133F10F /* Frameworks */,
-				0D0AADD1958F9F4ED992E70686261745 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Pods-CRHexagonCollectionView_Tests";
-			productName = "Pods-CRHexagonCollectionView_Tests";
-			productReference = 544A4B2F729DF6FE87BACA83C7DD020E /* Pods_CRHexagonCollectionView_Tests.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 55B11829A7003B8557A9078B8D18184B /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView" */;
-			buildPhases = (
-				4E18A6D607387B612F4A65E889CA590C /* Sources */,
-				C92BC10D3D0ED16904E76D0BB9E9186E /* Frameworks */,
-				337FAD501F3D8FEB7F4465D5E4588ECE /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = CRHexagonCollectionView;
-			productName = CRHexagonCollectionView;
-			productReference = 7C74112E5F160E7751AB050A7304E239 /* CRHexagonCollectionView.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0700;
-			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = D08BAB614FFD3375F85AB42BFF86F3F4 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */,
-				1261C472FDB22B6F0A85147484D07D90 /* Pods-CRHexagonCollectionView_Example */,
-				344961C85D81AF65977FEB2B55593DA4 /* Pods-CRHexagonCollectionView_Tests */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXSourcesBuildPhase section */
-		402E3530618F75C86005EBA93A7F8DA9 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				301F1637E2D05B49AE629616B8A1706D /* Pods-CRHexagonCollectionView_Example-dummy.m in Sources */,
-				8EB550661DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4E18A6D607387B612F4A65E889CA590C /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6266BD13C154B4B99A7CC8BD0FC050B3 /* CRHexagonCollectionView-dummy.m in Sources */,
-				8EB550651DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A551CA49484878AE9659317F55093E64 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				60555AD9BA4A75863E4EC1872F2BE38F /* Pods-CRHexagonCollectionView_Tests-dummy.m in Sources */,
-				8EB550671DE8B33900B79915 /* CRCellCollectionView.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		7653FDF7FC9AA2F6A650654CADC81205 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = CRHexagonCollectionView;
-			target = E12AD1C1BA4153DAC1A65ACEA6E077A9 /* CRHexagonCollectionView */;
-			targetProxy = 8ECAAAE05BE3DA1C7431B779BBC0A281 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		32EB2139CE2016A869FB2AC340E2119E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CRHexagonCollectionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CRCellCollectionView;
-				PRODUCT_NAME = CRHexagonCollectionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		3C089E09FB29CA3A723F8857280BBEFB /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = B5758C0A45D101A2852DECE0EDAED317 /* Pods-CRHexagonCollectionView_Tests.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CRHexagonCollectionView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		60916C753DB4C3FF446C67A8F1001845 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 49213BA20C52323B052101E589E84C36 /* Pods-CRHexagonCollectionView_Example.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CRHexagonCollectionView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		6E801C77559618F6B81F28614FD83A5B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 457AD563B8E47DCB70F5453D5D9813DA /* Pods-CRHexagonCollectionView_Tests.debug.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Tests/Pods-CRHexagonCollectionView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CRHexagonCollectionView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7BBA5564779C3515B117C331F702D0F2 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 830EFD52440E8A6BC0EFA5998DFE4A58 /* CRHexagonCollectionView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/CRHexagonCollectionView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/CRHexagonCollectionView/CRHexagonCollectionView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_BUNDLE_IDENTIFIER = org.cocoapods.CRCellCollectionView;
-				PRODUCT_NAME = CRHexagonCollectionView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		AD408A529ABB8E12D376F50366072706 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CB84EE10DA64B21D8983BC50D6919357 /* Pods-CRHexagonCollectionView_Example.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-CRHexagonCollectionView_Example/Pods-CRHexagonCollectionView_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_CRHexagonCollectionView_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_DEBUG=1",
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				ONLY_ACTIVE_ARCH = YES;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SYMROOT = "${SRCROOT}/../build";
-			};
-			name = Debug;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		55B11829A7003B8557A9078B8D18184B /* Build configuration list for PBXNativeTarget "CRHexagonCollectionView" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				32EB2139CE2016A869FB2AC340E2119E /* Debug */,
-				7BBA5564779C3515B117C331F702D0F2 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A99647D26ABE1DE3642FE9269E4FE3F6 /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Example" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				60916C753DB4C3FF446C67A8F1001845 /* Debug */,
-				AD408A529ABB8E12D376F50366072706 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		CF755E68992FA2B209DA5243DE1B578F /* Build configuration list for PBXNativeTarget "Pods-CRHexagonCollectionView_Tests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6E801C77559618F6B81F28614FD83A5B /* Debug */,
-				3C089E09FB29CA3A723F8857280BBEFB /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>0131163D2987EBE28CDEE0D944D3440C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>25B0A7E5E75B41A24D215E08210D2578</string>
+				<string>9414869F04314A76D29F14BD19767710</string>
+				<string>B83BBDEDD86A7D44EDB9E09E00FBBD63</string>
+				<string>4DB11690C4001D346F63864596206CF7</string>
+				<string>07252BA35CF9AA9AEB6FB997AA9631BB</string>
+				<string>9E936C35D5E76ED41C261C0F3A305936</string>
+				<string>8DF8A6FBB71A0990195918332B0B99E6</string>
+				<string>5551C6BA1275CFECAAC468E7F0E6093D</string>
+				<string>FC1E877962B22634E16A206C07D99CA9</string>
+				<string>6B97291158D77DA6408203252FADF047</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-CRCellCollectionView_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-CRCellCollectionView_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>054A3C07BBDA3DF6126CFC8DFC535597</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>D8BED05B8EF6506A2B8D11B32B4017FA</string>
+			<key>remoteInfo</key>
+			<string>CRCellCollectionView</string>
+		</dict>
+		<key>055EA3FC4423DB2F2DDBA825EFA5D216</key>
+		<dict>
+			<key>fileRef</key>
+			<string>38A68C435EA421514F27121E01ED0F76</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>07252BA35CF9AA9AEB6FB997AA9631BB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0A5CA8AA93CC720B75BAF5BB6E62759B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>0A6CFD7285F7039B88C7CC834BAE45BB</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C9FA23C85A09770D6F959BA887319061</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0D164606572108AE422278D0B9B8590B</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>981F74DDFF029681EBFDEBF271AF78BF</string>
+				<string>522912890DEE8A0870E6AA82D6E8117E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CRCellCollectionView</string>
+			<key>path</key>
+			<string>../..</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0E8768606E322B2791413B5768543EB7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12FEE8320CD94668F53FE20D23B150A0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>151774924158F4C8A0D9A621ACBD2273</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>16CF6A7ACDF9109F709DA519D0A93221</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>68D580161883F9C0BB43041C8471CCD5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CRCellCollectionView/CRCellCollectionView-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/CRCellCollectionView/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/CRCellCollectionView/CRCellCollectionView.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>PRODUCT_NAME</key>
+				<string>CRCellCollectionView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>202B22AA5D3383A1A92E4FE6609129B2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0D164606572108AE422278D0B9B8590B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25025EB5036F6D49D1D9436B2C152450</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>68D580161883F9C0BB43041C8471CCD5</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>GCC_PREFIX_HEADER</key>
+				<string>Target Support Files/CRCellCollectionView/CRCellCollectionView-prefix.pch</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/CRCellCollectionView/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/CRCellCollectionView/CRCellCollectionView.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>PRODUCT_NAME</key>
+				<string>CRCellCollectionView</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>2508D62F7D0C2093C17BB8E1AC8596D3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25B0A7E5E75B41A24D215E08210D2578</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>269F499A0DA67C96838B2F4E63C82567</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>282583BFF56B16158DD2EF7561685688</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>371C3B2961B2BF39D6DE19CCFB5C97D6</string>
+				<string>2E59D711AEC211EDE575D73CEE47CEDA</string>
+				<string>5E6D1C6B2794CB8319599D4D7A883FFC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>47BEF9D903506B003EA5C2B249729489</string>
+				<string>AAF678CED40D3499169D10F63CA0719E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>2E59D711AEC211EDE575D73CEE47CEDA</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_CRCellCollectionView_Example.framework</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>342A790EE7504721D80DA14D96A61F91</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>2508D62F7D0C2093C17BB8E1AC8596D3</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>371C3B2961B2BF39D6DE19CCFB5C97D6</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>CRCellCollectionView.framework</string>
+			<key>path</key>
+			<string>CRCellCollectionView.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>38A68C435EA421514F27121E01ED0F76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CRCellCollectionView.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3C65E46D50EBFF621DF06DE173507B1C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>CRCellCollectionView.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3DCAB2B7CDE207B3958B6CB957FCC758</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>iOS</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F581ED3ED70842C1CD1DAB846388D8A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>C49ABE896B40A9A8E36269B7AC224CD7</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>41543D36F3CF4555AB65DCDF20105707</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>FC1E877962B22634E16A206C07D99CA9</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Example/Pods-CRCellCollectionView_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_CRCellCollectionView_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>47BEF9D903506B003EA5C2B249729489</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_TESTABILITY</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_DEBUG=1</string>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>4D7EBC7065C6D90CB98802F9E9A0C4CF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>63A3015B496EA4B8CEECAA1B436FC263</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>4DB11690C4001D346F63864596206CF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>522912890DEE8A0870E6AA82D6E8117E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3C65E46D50EBFF621DF06DE173507B1C</string>
+				<string>68D580161883F9C0BB43041C8471CCD5</string>
+				<string>83EA9B9E10E2CAD5435D9E481058A391</string>
+				<string>A5D84E0B10867312BE553036A30AB0C4</string>
+				<string>C9FA23C85A09770D6F959BA887319061</string>
+				<string>F28A8F95DBCFFEC88B35026EE73E1B47</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/CRCellCollectionView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5551C6BA1275CFECAAC468E7F0E6093D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>556C8D543010032825916E193AE047BB</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>AB3B4AE4351D7EDD0E3ED9FE493DA44F</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Tests/Pods-CRCellCollectionView_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_CRCellCollectionView_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>5A43D1EF9779A7D2495B26C4C11EE9A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F3495E86AA19EFBB0C6DE3EF31BD6F99</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>5BAC68BBB0BCE784ECD6D81774E280F8</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>6E6A7ACFE22897B8538DC00DA3242A6D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>5E6D1C6B2794CB8319599D4D7A883FFC</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods_CRCellCollectionView_Tests.framework</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>63A3015B496EA4B8CEECAA1B436FC263</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65BF3E5CD8D9097AD7E10E2A0D3FCB59</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CRCellCollectionView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>678C36307E9C383C303018212214A9CA</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>4D7EBC7065C6D90CB98802F9E9A0C4CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>68D580161883F9C0BB43041C8471CCD5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>CRCellCollectionView.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>68F9451E558AA63482580B14AB0329AE</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>25025EB5036F6D49D1D9436B2C152450</string>
+				<string>16CF6A7ACDF9109F709DA519D0A93221</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6B97291158D77DA6408203252FADF047</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6E6A7ACFE22897B8538DC00DA3242A6D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>07252BA35CF9AA9AEB6FB997AA9631BB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6F83D743321F88994D3761639B2C64A0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>65BF3E5CD8D9097AD7E10E2A0D3FCB59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6F95B948AD9AF0B84D27A9D3227CE892</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0A6CFD7285F7039B88C7CC834BAE45BB</string>
+				<string>055EA3FC4423DB2F2DDBA825EFA5D216</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>707D332F6A85E5670B82C54CA96BB929</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>DE3A8519D1B3E74D2EEE31E5E79E26B5</string>
+			<key>buildPhases</key>
+			<array>
+				<string>678C36307E9C383C303018212214A9CA</string>
+				<string>3F581ED3ED70842C1CD1DAB846388D8A</string>
+				<string>D04791C53B87EC8189595A5295675EA0</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CRCellCollectionView_Tests</string>
+			<key>productName</key>
+			<string>Pods-CRCellCollectionView_Tests</string>
+			<key>productReference</key>
+			<string>5E6D1C6B2794CB8319599D4D7A883FFC</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>7C1D708641A84BA39338686F043BB70E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>F081EA0CCC08D0AC1B483037F921E953</string>
+			<key>buildPhases</key>
+			<array>
+				<string>5BAC68BBB0BCE784ECD6D81774E280F8</string>
+				<string>C86AFBA8AF8A1A7A579E2A90CFC905D0</string>
+				<string>A57A04E5189CBEBCF8348D2F887709D6</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>9E3778D5DDB49BB6F112456CB99B9992</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods-CRCellCollectionView_Example</string>
+			<key>productName</key>
+			<string>Pods-CRCellCollectionView_Example</string>
+			<key>productReference</key>
+			<string>2E59D711AEC211EDE575D73CEE47CEDA</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>7DB346D0F39D3F0E887471402A8071AB</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>93A4A3777CF96A4AAC1D13BA6DCCEA73</string>
+				<string>202B22AA5D3383A1A92E4FE6609129B2</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>282583BFF56B16158DD2EF7561685688</string>
+				<string>9991C1FF1A5B88C770E88E6FE7DA55D0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>83EA9B9E10E2CAD5435D9E481058A391</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>CRCellCollectionView-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8DF8A6FBB71A0990195918332B0B99E6</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-resources.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>925DD0916B34E1FEF92977011E1FAD36</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5551C6BA1275CFECAAC468E7F0E6093D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>93A4A3777CF96A4AAC1D13BA6DCCEA73</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>text.script.ruby</string>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
+		</dict>
+		<key>9414869F04314A76D29F14BD19767710</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example.modulemap</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>981F74DDFF029681EBFDEBF271AF78BF</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>E8648C13930882972FA87C6162A616A2</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>CRCellCollectionView</string>
+			<key>path</key>
+			<string>CRCellCollectionView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9991C1FF1A5B88C770E88E6FE7DA55D0</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>0131163D2987EBE28CDEE0D944D3440C</string>
+				<string>AC2547F52A05D50D628FCE30FEEDEE46</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9E3778D5DDB49BB6F112456CB99B9992</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>name</key>
+			<string>CRCellCollectionView</string>
+			<key>target</key>
+			<string>D8BED05B8EF6506A2B8D11B32B4017FA</string>
+			<key>targetProxy</key>
+			<string>054A3C07BBDA3DF6126CFC8DFC535597</string>
+		</dict>
+		<key>9E936C35D5E76ED41C261C0F3A305936</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A1EAE80F22CD7884970384E9591627C7</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>6B97291158D77DA6408203252FADF047</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf-with-dsym</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Example/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Example/Pods-CRCellCollectionView_Example.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_CRCellCollectionView_Example</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>A239F1DA0C54EC020426CB0348D07733</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>CBCCE9BC6EDAA6EB4623FCFD74477501</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>CURRENT_PROJECT_VERSION</key>
+				<string>1</string>
+				<key>DEBUG_INFORMATION_FORMAT</key>
+				<string>dwarf</string>
+				<key>DEFINES_MODULE</key>
+				<string>YES</string>
+				<key>DYLIB_COMPATIBILITY_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_CURRENT_VERSION</key>
+				<string>1</string>
+				<key>DYLIB_INSTALL_NAME_BASE</key>
+				<string>@rpath</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_NO_COMMON_BLOCKS</key>
+				<string>YES</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Tests/Info.plist</string>
+				<key>INSTALL_PATH</key>
+				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<array>
+					<string>$(inherited)</string>
+					<string>@executable_path/Frameworks</string>
+					<string>@loader_path/Frameworks</string>
+				</array>
+				<key>MACH_O_TYPE</key>
+				<string>staticlib</string>
+				<key>MODULEMAP_FILE</key>
+				<string>Target Support Files/Pods-CRCellCollectionView_Tests/Pods-CRCellCollectionView_Tests.modulemap</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>OTHER_LDFLAGS</key>
+				<string></string>
+				<key>OTHER_LIBTOOLFLAGS</key>
+				<string></string>
+				<key>PODS_ROOT</key>
+				<string>$(SRCROOT)</string>
+				<key>PRODUCT_BUNDLE_IDENTIFIER</key>
+				<string>org.cocoapods.${PRODUCT_NAME:rfc1034identifier}</string>
+				<key>PRODUCT_NAME</key>
+				<string>Pods_CRCellCollectionView_Tests</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>SKIP_INSTALL</key>
+				<string>YES</string>
+				<key>TARGETED_DEVICE_FAMILY</key>
+				<string>1,2</string>
+				<key>VERSIONING_SYSTEM</key>
+				<string>apple-generic</string>
+				<key>VERSION_INFO_PREFIX</key>
+				<string></string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>A57A04E5189CBEBCF8348D2F887709D6</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>925DD0916B34E1FEF92977011E1FAD36</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>A5D84E0B10867312BE553036A30AB0C4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CRCellCollectionView-prefix.pch</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AAF678CED40D3499169D10F63CA0719E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_ANALYZER_NONNULL</key>
+				<string>YES</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>POD_CONFIGURATION_RELEASE=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.0</string>
+				<key>STRIP_INSTALLED_PRODUCT</key>
+				<string>NO</string>
+				<key>SYMROOT</key>
+				<string>${SRCROOT}/../build</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>AB3B4AE4351D7EDD0E3ED9FE493DA44F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AC2547F52A05D50D628FCE30FEEDEE46</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>151774924158F4C8A0D9A621ACBD2273</string>
+				<string>0E8768606E322B2791413B5768543EB7</string>
+				<string>269F499A0DA67C96838B2F4E63C82567</string>
+				<string>F2C81530D191CBCEA6950B785857152C</string>
+				<string>63A3015B496EA4B8CEECAA1B436FC263</string>
+				<string>EABC1497166DA8BB767050415A25EE42</string>
+				<string>12FEE8320CD94668F53FE20D23B150A0</string>
+				<string>F3495E86AA19EFBB0C6DE3EF31BD6F99</string>
+				<string>CBCCE9BC6EDAA6EB4623FCFD74477501</string>
+				<string>AB3B4AE4351D7EDD0E3ED9FE493DA44F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-CRCellCollectionView_Tests</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-CRCellCollectionView_Tests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AF065D7FA377BCBADB8CDC6485B54298</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>CA6F461127500F88DDD72B49FF3C662C</string>
+				<string>6F83D743321F88994D3761639B2C64A0</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>B83BBDEDD86A7D44EDB9E09E00FBBD63</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>3DCAB2B7CDE207B3958B6CB957FCC758</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C49ABE896B40A9A8E36269B7AC224CD7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CEC22C73C1608DFA5D5D78BDCB218219</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C86AFBA8AF8A1A7A579E2A90CFC905D0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>0A5CA8AA93CC720B75BAF5BB6E62759B</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>C9FA23C85A09770D6F959BA887319061</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>CRCellCollectionView-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA6F461127500F88DDD72B49FF3C662C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>83EA9B9E10E2CAD5435D9E481058A391</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CBCCE9BC6EDAA6EB4623FCFD74477501</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CEC22C73C1608DFA5D5D78BDCB218219</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>D04791C53B87EC8189595A5295675EA0</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>5A43D1EF9779A7D2495B26C4C11EE9A8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>D41D8CD98F00B204E9800998ECF8427E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastSwiftUpdateCheck</key>
+				<string>0730</string>
+				<key>LastUpgradeCheck</key>
+				<string>0700</string>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+			</array>
+			<key>mainGroup</key>
+			<string>7DB346D0F39D3F0E887471402A8071AB</string>
+			<key>productRefGroup</key>
+			<string>282583BFF56B16158DD2EF7561685688</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>D8BED05B8EF6506A2B8D11B32B4017FA</string>
+				<string>7C1D708641A84BA39338686F043BB70E</string>
+				<string>707D332F6A85E5670B82C54CA96BB929</string>
+			</array>
+		</dict>
+		<key>D8BED05B8EF6506A2B8D11B32B4017FA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>68F9451E558AA63482580B14AB0329AE</string>
+			<key>buildPhases</key>
+			<array>
+				<string>AF065D7FA377BCBADB8CDC6485B54298</string>
+				<string>342A790EE7504721D80DA14D96A61F91</string>
+				<string>6F95B948AD9AF0B84D27A9D3227CE892</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>CRCellCollectionView</string>
+			<key>productName</key>
+			<string>CRCellCollectionView</string>
+			<key>productReference</key>
+			<string>371C3B2961B2BF39D6DE19CCFB5C97D6</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>DE3A8519D1B3E74D2EEE31E5E79E26B5</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A239F1DA0C54EC020426CB0348D07733</string>
+				<string>556C8D543010032825916E193AE047BB</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>E8648C13930882972FA87C6162A616A2</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>38A68C435EA421514F27121E01ED0F76</string>
+				<string>65BF3E5CD8D9097AD7E10E2A0D3FCB59</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EABC1497166DA8BB767050415A25EE42</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.script.sh</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-frameworks.sh</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F081EA0CCC08D0AC1B483037F921E953</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>41543D36F3CF4555AB65DCDF20105707</string>
+				<string>A1EAE80F22CD7884970384E9591627C7</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>F28A8F95DBCFFEC88B35026EE73E1B47</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F2C81530D191CBCEA6950B785857152C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F3495E86AA19EFBB0C6DE3EF31BD6F99</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Tests-umbrella.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>FC1E877962B22634E16A206C07D99CA9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-CRCellCollectionView_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>D41D8CD98F00B204E9800998ECF8427E</string>
+</dict>
+</plist>
