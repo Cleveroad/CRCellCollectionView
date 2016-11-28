@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F589195388D20070C39A"
-               BuildableName = "CRHexagonCollectionView_Example.app"
-               BlueprintName = "CRHexagonCollectionView_Example"
-               ReferencedContainer = "container:CRHexagonCollectionView.xcodeproj">
+               BuildableName = "CRCellCollectionView_Example.app"
+               BlueprintName = "CRCellCollectionView_Example"
+               ReferencedContainer = "container:CRCellCollectionView.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6003F5AD195388D20070C39A"
-               BuildableName = "CRHexagonCollectionView_Tests.xctest"
-               BlueprintName = "CRHexagonCollectionView_Tests"
-               ReferencedContainer = "container:CRHexagonCollectionView.xcodeproj">
+               BuildableName = "CRCellCollectionView_Tests.xctest"
+               BlueprintName = "CRCellCollectionView_Tests"
+               ReferencedContainer = "container:CRCellCollectionView.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -43,9 +43,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CRHexagonCollectionView_Example.app"
-            BlueprintName = "CRHexagonCollectionView_Example"
-            ReferencedContainer = "container:CRHexagonCollectionView.xcodeproj">
+            BuildableName = "CRCellCollectionView_Example.app"
+            BlueprintName = "CRCellCollectionView_Example"
+            ReferencedContainer = "container:CRCellCollectionView.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -66,9 +66,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CRHexagonCollectionView_Example.app"
-            BlueprintName = "CRHexagonCollectionView_Example"
-            ReferencedContainer = "container:CRHexagonCollectionView.xcodeproj">
+            BuildableName = "CRCellCollectionView_Example.app"
+            BlueprintName = "CRCellCollectionView_Example"
+            ReferencedContainer = "container:CRCellCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <EnvironmentVariables>
@@ -92,9 +92,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6003F589195388D20070C39A"
-            BuildableName = "CRHexagonCollectionView_Example.app"
-            BlueprintName = "CRHexagonCollectionView_Example"
-            ReferencedContainer = "container:CRHexagonCollectionView.xcodeproj">
+            BuildableName = "CRCellCollectionView_Example.app"
+            BlueprintName = "CRCellCollectionView_Example"
+            ReferencedContainer = "container:CRCellCollectionView.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

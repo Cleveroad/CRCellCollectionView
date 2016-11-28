@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:CRHexagonCollectionView.xcodeproj">
+      location = "group:/Users/voytenko_cr/Documents/WorkSpace/Upload/CRCellCollectionView/Example/CRCellCollectionView.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">
