@@ -1,9 +1,9 @@
 use_frameworks!
 
-target 'CRHexagonCollectionView_Example' do
-  pod 'CRHexagonCollectionView', :path => '../'
+target 'CRCellCollectionView_Example' do
+  pod 'CRCellCollectionView', :path => '../'
 
-  target 'CRHexagonCollectionView_Tests' do
+  target 'CRCellCollectionView_Tests' do
     inherit! :search_paths
 
     

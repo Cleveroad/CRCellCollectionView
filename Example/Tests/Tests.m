@@ -1,6 +1,6 @@
 //
-//  CRHexagonCollectionViewTests.m
-//  CRHexagonCollectionViewTests
+//  CRCellCollectionViewTests.m
+//  CRCellCollectionViewTests
 //
 //  Created by Sergey on 10/05/2016.
 //  Copyright (c) 2016 Sergey. All rights reserved.
